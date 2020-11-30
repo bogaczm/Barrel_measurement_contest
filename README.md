@@ -22,7 +22,7 @@ Celem było wykonanie pomiaru odległości wlewów beczki od środka jej pokrywk
 
    Z powodu trudności w wyznaczeniu okręgów, przez bardzo duże różnice w rozmiarze, wykonano trzy różne filtracje wielkościowe.
 
-   <img src='images/size_filtered_big.jpg'> <img src='images/size_filtered_medium.jpg'> <img src='images/size_filtered_small.jpg'>
+   <img src='images/size_filtered_big.jpg'><img src='images/size_filtered_medium.jpg'><img src='images/size_filtered_small.jpg'>
 
    Pierwszy obraz to obwód całej pokrywy, drugi to duży otwór (dalsze algorytmy pominą pozostałe kształty) oraz ostatni to mały otwór (dzięki filtracji blob, wyrzucony zostanie kształt który nie przypomina koła
 
