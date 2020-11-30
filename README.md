@@ -34,7 +34,7 @@ Celem było wykonanie pomiaru odległości wlewów beczki od środka jej pokrywk
 
 5. Ostateczny obraz wyjściowy z zaznaczonymi okręgami i centrami
 
-<img src='images/output.jpg'>
+   <img src='images/output.jpg'>
 
 
 
