@@ -9,11 +9,7 @@ Celem było wykonanie pomiaru odległości wlewów beczki od środka jej pokrywk
    
 
 2. Beczka jest niebieska, a tło jest beżowe, dlatego najlepiej użyć funkcji progującej kolor:
-
-   ```python
-   cv2.Range()
-   ```
-
+   
    <img src='images/color_filtered.jpg'>
 
    
