@@ -9,11 +9,7 @@ Celem było wykonanie pomiaru odległości wlewów beczki od środka jej pokrywk
    
 
 2. Beczka jest niebieska, a tło jest beżowe, dlatego najlepiej użyć funkcji progującej kolor:
-
-   ```python
-   cv2.Range()
-   ```
-
+   
    <img src='images/color_filtered.jpg'>
 
    
@@ -30,23 +26,15 @@ Celem było wykonanie pomiaru odległości wlewów beczki od środka jej pokrywk
 
 4. Środki całego wieka oraz większego otworu znalezione zostaną przez algorytm HoughCircles z obrazów brzegowych.
 
-   <img src='images/edges_big.jpg'><img src='images/edges_medium.jpg'>
+   <img src='images/edges_big.jpg'> <img src='images/edges_medium.jpg'>
 
    Środek małego otworu, ze względu na niska rozdzielczość i nieregularny kształt łatwiej znaleźć przy pomocy wyszukania Blob, z założeniemfiltru na  poszukiwanie okrągłych blobów.
 
    <img src='images/blob_search.jpg'>
 
-5. Obliczenia które należy wykonać
+5. Ostateczny obraz wyjściowy z zaznaczonymi okręgami i centrami
 
-
-   $$
-   distance = sqrt((x_c - x_l)^2 + (y_e - y_c)^2)
-   $$
-   Wynik należy przeliczyć na mm lub zostawić w pikselach.
-
-6. Ostateczny obraz wyjściowy z zaznaczonymi okręgami i centrami
-
-<img src='images/output.jpg'>
+   <img src='images/output.jpg'>
 
 
 
